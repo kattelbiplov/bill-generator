@@ -1,0 +1,143 @@
+.home-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo-upload {
+    position: relative;
+    width: 150px; 
+    height: 150px; 
+}
+
+.logo-placeholder {
+    width: 100%;
+    height: 100%;
+    border: 2px dashed #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #aaa;
+    font-size: 14px;
+    border-radius: 50%;
+}
+
+.logo-upload img {
+    width: 100%;  
+    height: 100%;
+    object-fit: contain; 
+    border-radius: 50%; 
+}
+
+
+
+.logo-upload input {
+    display: none;
+}
+
+.org-name-container {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.org-name-input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.row {
+    margin-bottom: 10px;
+}
+
+.row label {
+    font-weight: bold;
+}
+
+.fields {
+    margin-bottom: 20px;
+}
+
+.field-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.key-container, .value-container {
+    flex-basis: 45%;
+}
+
+.field-input, .datatype-dropdown {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.delete-btn {
+    background-color: #ff4c4c;
+    color: white;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.delete-btn:hover {
+    background-color: #ff0000;
+}
+
+.add-more-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.add-more-btn:hover {
+    background-color: #45a049;
+}
+
+.amount-input, .vat-rate-input, .date-input, .email-input, .phone-input {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.total-display {
+    font-weight: bold;
+}
+
+.proceed-button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.proceed-button:hover {
+    background-color: #0056b3;
+}
